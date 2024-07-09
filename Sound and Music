@@ -1,0 +1,5 @@
+<audio id="bgMusic" src="background.mp3"loop></audio>
+
+const bgMusic =
+document.getElementById('bgMusic');
+bgMusic.play();
