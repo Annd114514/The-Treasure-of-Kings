@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	  <title>Simple HTML5 Game</title>
+    <Style>
+        Canvas {
+        	  border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+	  <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
+const canvas =
+document.getElementById('gameCanvas');
