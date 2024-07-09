@@ -1,0 +1,19 @@
+function gameloop() {
+    update();
+    render();
+    requestAnimationFrame(gameLoop);
+}
+
+function update() {
+    // Update game state
+}
+
+function render() {
+    // Draw game graphics
+    ctx.clearRect(0, 0, canvas.width,canvas.height);
+    //Example: Draw a rectangle
+    ctx.fillStyle = 'blue';
+    ctx.fillRect(50, 50, 100, 100);
+}
+
+gameLoop();
